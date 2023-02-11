@@ -6,7 +6,7 @@ async function update(interaction, user) {
     var { body } = await snekfetch.get(`${config.firebaseURL}/verified/${user.id}.json`)
 
     if (!body) {
-        return interaction.reply({ content: 'You must be verified before running /update! To verify, run /verify.', ephemeral: true });
+        return interaction.reply({ content: '업데이트를 쓰기전에 인증을 먼저 하셔야죠!', ephemeral: true });
     }
 
     var { body } = await snekfetch.get(`https://users.roblox.com/v1/users/${body.linked}`)
@@ -23,9 +23,9 @@ async function update(interaction, user) {
     if (interaction.member.displayName !== displayName) {
         interaction.member.setNickname(`${displayName}`);
 
-        return interaction.reply({ content: `Username updated to ${displayName} from ${currentName}.`, ephemeral: true })
+        return interaction.reply({ content: `U${currentName}에서 ${displayName} 으로 이름이 변경 되셨어요! .`, ephemeral: true })
     } else {
-        return interaction.reply({ content: 'Your username is already up-to-date.', ephemeral: true })
+        return interaction.reply({ content: '이미 업데이트 되었는데요?', ephemeral: true })
     }
 }
 
