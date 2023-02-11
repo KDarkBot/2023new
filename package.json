@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build-project": "node index.js"
+    
+    "start": "node.index.js"
   },
   "dependencies": {
     "discord.js": "^13.9.2",
