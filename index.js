@@ -28,6 +28,7 @@ for (const file of commands) {
 }
 
 client.once('ready', () => {
+    print("작동하거랏")
     client.user.setActivity('나는 인증하는 노예!', { type: 'WATCHING' });
 
     let slashCommands
