@@ -62,7 +62,7 @@ module.exports = {
                     .setColor('0x5d65f3');
                 const page2 = new MessageEmbed()
                 .setTitle('인증✅')
-                    .setDescription(`Sorry, but it looks like you haven't completed the steps in the [verification game](${config.verificationLink}). Please complete the steps then click next.`)
+                    .setDescription(`죄송하지만 아직 게임에 안들어가신것 같은데요? [인증겜](${config.verificationLink})에 들어가 주세요!`)
                     .setColor('0x5d65f3');
                 const page3 = new MessageEmbed()
                 .setTitle('인증✅')
