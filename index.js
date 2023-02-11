@@ -1,5 +1,5 @@
 const config = require('./config.json');
-require("dotenv").config();
+
 const { readdirSync } = require('fs');
 const { Client, Collection} = require('discord.js');
 
