@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build-project": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^13.9.2",
     "firebase": "^7.18.0",
