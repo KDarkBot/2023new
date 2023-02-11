@@ -9,6 +9,7 @@ const client = new Client({
 });
 
 const firebase = require('firebase');
+const { env } = require('process');
 const firebaseConfig = {
     databaseURL: `${config.firebaseURL}`,
 };
@@ -85,4 +86,4 @@ client.on('interactionCreate', async (interaction) => {
     }
 });
 
-client.login(config.botToken)
+client.login(env("TOKEN"))
