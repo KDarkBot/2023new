@@ -3,7 +3,7 @@
  
   "scripts": {
     
-    "start": "SET NODE_ENV=development && node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^13.9.2",
