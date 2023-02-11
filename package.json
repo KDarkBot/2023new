@@ -1,5 +1,6 @@
 {
-  "license": "MIT",
+  
+ 
   "scripts": {
     
     "start": "node index.js"
@@ -11,5 +12,6 @@
     "moment": "^2.29.4",
     "pm2": "^5.2.2",
     "snekfetch": "^4.0.4"
-  }
+  },
+  "license": "MIT"
 }
