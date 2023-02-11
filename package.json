@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "discord.js": "^13.9.2",
+    "firebase": "^7.18.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "pm2": "^5.2.2",
+    "snekfetch": "^4.0.4"
+  }
+}
