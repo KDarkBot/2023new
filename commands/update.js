@@ -30,7 +30,7 @@ async function update(interaction, user) {
 }
 
 module.exports = {
-    name: 'update',
+    name: '업데이트',
     async execute(interaction) {
         const { options } = interaction
         const user = options.getUser('user')

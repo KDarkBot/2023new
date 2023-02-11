@@ -3,7 +3,7 @@ const config = require('../config.json');
 const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
 
 module.exports = {
-    name: 'help',
+    name: '명령어',
     async execute(interaction) {
         const { commandName, options } = interaction
 
@@ -21,7 +21,7 @@ module.exports = {
         var commandString = commands.join('')
 
         const response1 = new MessageEmbed()
-            .setTitle('Commands')
+            .setTitle('명령어')
             .setDescription(`${commandString}`)
             .setColor('0x5d65f3');
 

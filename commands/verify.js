@@ -6,7 +6,7 @@ const snekfetch = require('snekfetch');
 const firebase = require('firebase');
 
 module.exports = {
-    name: 'verify',
+    name: '인증',
     async execute(interaction) {
         const { options } = interaction
         const member = interaction.member.user.id
