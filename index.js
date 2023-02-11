@@ -1,5 +1,5 @@
 const config = require('./config.json');
-
+require("dotenv").config();
 const { readdirSync } = require('fs');
 const { Client, Collection} = require('discord.js');
 
@@ -87,4 +87,4 @@ client.on('interactionCreate', async (interaction) => {
     }
 });
 
-client.login(env("TOKEN"))
+client.login(process.env("TOKEN"))
